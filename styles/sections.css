@@ -1,10 +1,54 @@
+#background-intro {
+    background-image: url(../assets/Background_Intro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #intro {
+
+    img:first-of-type{
+        width: 112px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        margin-block: 120px 56px;
+    }
+
+    h1 {
+        margin-block:  8px 20px;
+    }
+
+    p {
+        text-align: center;
+        max-width: 680px;
+        margin-bottom: 80px;
+    }
+
     ul {
+        margin-bottom: 94px;
         li {
             display: flex;
             gap: 8px;
             align-items: center;
             list-style: none;
+            background-color: var(--gray-300);
+            padding-block: 8px;
+            padding-inline: 16px;
+            border-radius: 999px;
+            img:first-of-type {
+                margin: 0;
+                width: 24px;
+                aspect-ratio: 1/1;
+                object-fit: cover;
+            }
         }
     }
+
+    img:last-of-type{
+        width: 32px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        margin-bottom: 57px;
+    }
+
 }
