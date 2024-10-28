@@ -1,0 +1,21 @@
+.background-intro {
+    background-image: url(../assets/Background_Intro.png);
+}
+
+.background-contacts {
+    background-image: url(../assets/Background_Contacts.png);
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.fill-blue
