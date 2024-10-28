@@ -10,8 +10,16 @@
     display: grid;
 }
 
+.grid-columns-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .gap-16 {
     gap: 16px;
+}
+
+.gap-24 {
+    gap: 24px;
 }
 
 .color-red {
@@ -32,4 +40,12 @@
 
 .title-lg {
     font: var(--title-lg);
+}
+
+.title-md {
+    font: var(--title-md);
+}
+
+.title-sm {
+    font: var(--title-sm);
 }

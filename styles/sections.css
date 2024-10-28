@@ -1,8 +1,9 @@
-#background-intro {
+.background-intro {
     background-image: url(../assets/Background_Intro.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
 }
 
 #intro {
@@ -51,4 +52,49 @@
         margin-bottom: 57px;
     }
 
+}
+
+.background-projects {
+    background-color: var(--gray-200);
+}
+
+#projects {
+    padding-bottom: 144px;
+
+    h4 {
+        margin-block: 76px 8px;
+    }
+
+    h2 {
+        margin-bottom: 52px;
+    }
+
+    article {
+        
+        width: 330px;
+        height: 280px;
+        background-color: var(--gray-300);
+        border-radius: 12px;
+        padding-inline: 12px;
+        padding-top: 12px;
+
+        img {
+            justify-self: center;
+            width: 306px;
+            height: 156px;
+            border-radius: 8px;
+        }
+        div {
+            margin-block: 20px 17px;
+            margin-inline: 4px;
+
+            h3 {
+                margin-block: 4px 8px;
+            }
+
+            p {
+                margin-bottom: 4px;
+            }
+        }
+    }
 }
