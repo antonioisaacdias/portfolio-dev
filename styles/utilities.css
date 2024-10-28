@@ -34,6 +34,11 @@
     color: var(--gray-400);
 }
 
+.color-purple {
+    color: var(--purple);
+}
+
+
 .subtitle {
     font: var(--subtitle);
 }
@@ -48,4 +53,16 @@
 
 .title-sm {
     font: var(--title-sm);
+}
+
+.text-md {
+    font: var(--text-md);
+}
+
+.background-color {
+    background-color: var(--gray-200);
+}
+
+.background-color-dark {
+    background-color: var(--gray-100);
 }

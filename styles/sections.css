@@ -54,14 +54,10 @@
 
 }
 
-.background-projects {
-    background-color: var(--gray-200);
-}
-
 #projects {
     padding-bottom: 144px;
 
-    h4 {
+    span {
         margin-block: 76px 8px;
     }
 
@@ -70,7 +66,9 @@
     }
 
     article {
-        
+        &:hover {
+            border: solid 1px var(--gray-400);
+        }
         width: 330px;
         height: 280px;
         background-color: var(--gray-300);
@@ -95,6 +93,73 @@
             p {
                 margin-bottom: 4px;
             }
+        }
+    }
+}
+
+#services {
+    padding-block: 88px 120px;
+
+    span {
+        margin-bottom: 8px;
+    }
+
+    h2 {
+        margin-bottom: 56px;
+    }
+
+    .card {
+        width: 280px;
+        height: 155px;
+
+        padding: 20px;
+        border: solid 2px var(--gray-200);
+        border-radius: 12px;
+
+        img {
+            width: 48px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+
+        }
+
+        div {
+            margin-top: 20px;
+            h3 {
+                margin-bottom: 8px;
+            }
+        }
+    }
+}
+
+.background-contacts {
+    background-image: url(../assets/Background_Contacts.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#contacts {
+    padding-block: 128px 200px;
+    h2 {
+        margin-block: 8px;
+    }
+    p {
+        margin-bottom: 48px;
+    }
+
+    .card{
+        &:hover{
+            border: solid 1.5px var(--blue)
+        }
+        width: 400px;
+        height: 68px;
+        background-color: var(--gray-300);
+        align-items: center;
+        padding-inline: 20px;
+        border-radius: 8px;
+        grid-template-columns: 10% 80% 10%;
+        span {
+            margin-left: 12px;
         }
     }
 }
